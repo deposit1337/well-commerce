@@ -8,13 +8,24 @@ img {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 224px;
+  gap: 64px;
   flex-shrink: 0;
   /* columns: 3; */
 }
 
 .catalog__list2 {
+  /* margin-left: -72px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 1200px;
+  margin-top: 246px;
+  height: 600px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  flex-shrink: 0;
 }
 
 .catalog__item {
@@ -69,7 +80,7 @@ img {
   font-weight: 700;
   line-height: 30.682px; /* 170% */
   margin-top: 0px;
-  margin-left : 8px
+  margin-left: 8px;
 }
 
 .dotted-line {
@@ -83,8 +94,7 @@ img {
   /* color: #c12222; */
 }
 
-
-.caption-position{
+.caption-position {
   margin-top: 360px;
   margin-left: 28px;
   top: 0;
@@ -92,58 +102,70 @@ img {
   position: absolute;
 }
 
-.rows-position{
+.rows-position {
   margin-left: 200px;
   display: flex;
   margin-top: 20px;
   justify-content: space-between;
   gap: 177px;
   /* position: absolute; */
- 
 }
 
-.body-position{
+.body-position {
   margin-top: -56px;
   margin-left: -218px;
   padding-bottom: 34px;
   position: relative;
 }
 
-.line-position{
+.line-position {
   position: absolute;
   margin-top: 38px;
 }
 
-.line-position2{
+.line-position2 {
   position: absolute;
   margin-top: 38px;
 }
 
-.rows-position-fix{
+.rows-position-fix {
   margin-left: 200px;
   display: flex;
   margin-top: 20px;
   justify-content: space-between;
   gap: 120px;
   /* position: absolute; */
- 
 }
 
-.body-position-fix{
+.body-position-fix {
   margin-top: -56px;
   margin-left: -206px;
   padding-bottom: 34px;
   position: relative;
 }
 
-
-
-.red-stripe{
+.red-stripe {
   position: absolute;
   margin-top: -120px;
   width: 100%;
-height: 500px;
-flex-shrink: 0;
-background: var(--Secondary, #C12222);
+  height: 500px;
+  flex-shrink: 0;
+  background: var(--Secondary, #c12222);
+}
 
+.grey-stripe {
+  margin-top: 147px;
+  width: 100%;
+  height: 500px;
+  flex-shrink: 0;
+  background: #cfcfcf;
+  position: absolute;
+}
+
+
+.body-position-fix2 {
+  margin-top: -56px;
+  margin-left: -234px;
+  padding-bottom: 34px;
+  position: relative;
 }
