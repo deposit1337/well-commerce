@@ -1,6 +1,6 @@
 :root {
   /* color vars */
-  --Black: #2E2E2E;
+  --Black: #181818;
   --Secondary: #c12222;
   --Primary: #422020;
   --additional: #cc6262;
@@ -8,12 +8,11 @@
   --Black-50: rgba(72, 72, 72, 0.5);
   --Black-25: rgba(72, 72, 72, 0.25);
   --White: #e6e6e6;
-  --Page-color: #EEE
+  --Page-color: #eee;
 
   /* text vars */
-  
 }
-.Title{
+.Title {
   font-size: 41px;
   font-family: "Roboto Flex";
   font-style: normal;
@@ -21,15 +20,16 @@
   line-height: 65px;
   letter-spacing: 4px;
 }
-.Table-names{
-  text-shadow: 0px 2.7px 4.5px rgba(0, 0, 0, 0.25);
-  font-family: "Inter";
+.Table-names {
+  color: #252424;
+  text-shadow: 0px 2.717px 4.529px rgba(0, 0, 0, 0.25);
+  font-family: Inter Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 31.702px;
   font-style: normal;
   font-weight: 900;
-  line-height: 54.346px;
+  line-height: 54.346px; /* 171.429% */
 }
-.Table-item-names{
+.Table-item-names {
   font-family: "Roboto Mono";
   font-size: 23.55px;
   font-style: normal;
@@ -38,18 +38,27 @@
   letter-spacing: -1.178px;
 }
 
-body{
+body {
   background-color: var(--Page-color);
 }
 
-
-
-.container{
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.not{
+.not {
   display: none;
+}
+
+.name {
+  color: #1d1d1d;
+  text-shadow: 0px 2.717310905456543px 4.528851509094238px rgba(0, 0, 0, 0.25);
+  font-family: Inter Black;
+  font-size: 40.702px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 54.346px; /* 171.429% */
+  letter-spacing: -1.7px;
 }
